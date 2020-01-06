@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_basics", "wpf_basics\wpf_basics.csproj", "{C430DF02-7A2F-453B-9D7E-D7CAAC58ED46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_treeviews_and_converters", "wpf_treeviews_and_converters\wpf_treeviews_and_converters.csproj", "{585F4F73-FB8F-4044-982C-0A45BAEAFDC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_mvvm_basics", "wpf_mvvm_basics\wpf_mvvm_basics.csproj", "{7E0988A6-94AB-4F49-9C8F-662B15CA37C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_rappel_OOP", "wpf_rappel_OOP\wpf_rappel_OOP.csproj", "{B98326D7-5CD5-4325-B12F-221324C07246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_rappel_polymorphism", "wpf_rappel_polymorphism\wpf_rappel_polymorphism.csproj", "{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = Source : https://www.youtube.com/playlist?list=PLrW43fNmjaQVYF4zgsD0oL9Iv6u23PI6M
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C430DF02-7A2F-453B-9D7E-D7CAAC58ED46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C430DF02-7A2F-453B-9D7E-D7CAAC58ED46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C430DF02-7A2F-453B-9D7E-D7CAAC58ED46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C430DF02-7A2F-453B-9D7E-D7CAAC58ED46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585F4F73-FB8F-4044-982C-0A45BAEAFDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585F4F73-FB8F-4044-982C-0A45BAEAFDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585F4F73-FB8F-4044-982C-0A45BAEAFDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585F4F73-FB8F-4044-982C-0A45BAEAFDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0988A6-94AB-4F49-9C8F-662B15CA37C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0988A6-94AB-4F49-9C8F-662B15CA37C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0988A6-94AB-4F49-9C8F-662B15CA37C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0988A6-94AB-4F49-9C8F-662B15CA37C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B98326D7-5CD5-4325-B12F-221324C07246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98326D7-5CD5-4325-B12F-221324C07246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98326D7-5CD5-4325-B12F-221324C07246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98326D7-5CD5-4325-B12F-221324C07246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8FA58C6-6AE6-4561-B16B-16DF9E3F3B18}
+	EndGlobalSection
+EndGlobal

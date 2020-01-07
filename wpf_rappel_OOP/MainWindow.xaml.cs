@@ -9,8 +9,6 @@ namespace wpf_rappel_OOP
     /// </summary>
     public partial class MainWindow : Window
     {
-        List<Cake> cakes;
-
         public MainWindow()
         {
             InitializeComponent();
@@ -42,11 +40,7 @@ namespace wpf_rappel_OOP
             };
 
 
-            cakes = new List<Cake>();
 
-            cakes.Add(new WeddingCake("Chocolate"));
-            cakes.Add(new Cake("Vanilla"));
-            cakes.Add(new BirthdayCake("Marbled"));
 
         }
     }

@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_treeviews_and_converter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_mvvm_basics", "wpf_mvvm_basics\wpf_mvvm_basics.csproj", "{7E0988A6-94AB-4F49-9C8F-662B15CA37C1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_rappel_OOP", "wpf_rappel_OOP\wpf_rappel_OOP.csproj", "{B98326D7-5CD5-4325-B12F-221324C07246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rappel_OOP", "wpf_rappel_OOP\rappel_OOP.csproj", "{B98326D7-5CD5-4325-B12F-221324C07246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_rappel_polymorphism", "wpf_rappel_polymorphism\wpf_rappel_polymorphism.csproj", "{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rappel_polymorphism", "wpf_rappel_polymorphism\rappel_polymorphism.csproj", "{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rappel_interface", "rappel_interface\rappel_interface.csproj", "{C5F42540-462C-4625-9E51-758E4A2B783F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rappel_heritage", "rappel_heritage\rappel_heritage.csproj", "{9F3EF617-1DC2-4309-A166-5669A1031CCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +44,14 @@ Global
 		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F42540-462C-4625-9E51-758E4A2B783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F42540-462C-4625-9E51-758E4A2B783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F42540-462C-4625-9E51-758E4A2B783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F42540-462C-4625-9E51-758E4A2B783F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3EF617-1DC2-4309-A166-5669A1031CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3EF617-1DC2-4309-A166-5669A1031CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3EF617-1DC2-4309-A166-5669A1031CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3EF617-1DC2-4309-A166-5669A1031CCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

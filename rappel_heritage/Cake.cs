@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace wpf_rappel_OOP.Models
-{
+namespace rappel_heritage { 
+
+    /// <summary>
+    /// Pour voir le résultat des appels, afficher la Sortie (Output) dans Affichage (View)
+    /// </summary>
     public class Cake
     {
         protected string Flavor { get; set; }
@@ -22,6 +25,11 @@ namespace wpf_rappel_OOP.Models
         public void Frost()
         {
             Debug.WriteLine("The cake has now frosting");
+        }
+
+        public void ShowType()
+        {
+            Debug.WriteLine($"The cake type is a {this.GetType().Name}");
         }
     }
 

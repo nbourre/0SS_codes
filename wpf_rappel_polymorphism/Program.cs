@@ -8,10 +8,23 @@ namespace wpf_rappel_polymorphism
         {
             Console.WriteLine(a.Talk());
         }
+
+        static void LetsMove(Animal a)
+        {
+            Console.WriteLine(a.Move());
+        }
         static void Main(string[] args)
         {
-            LetsHear(new Cat());
-            LetsHear(new Dog());
+            var cat = new Cat();
+            var dog = new Dog();
+
+            LetsHear(cat);
+            LetsHear(dog);
+
+            LetsMove(cat);
+            LetsMove(dog);
+
+
         }
     }
 }

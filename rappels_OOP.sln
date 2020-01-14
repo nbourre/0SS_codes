@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rappel_OOP", "wpf_rappel_OOP\rappel_OOP.csproj", "{B98326D7-5CD5-4325-B12F-221324C07246}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rappel_polymorphism", "wpf_rappel_polymorphism\rappel_polymorphism.csproj", "{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rappel_interface", "rappel_interface\rappel_interface.csproj", "{C5F42540-462C-4625-9E51-758E4A2B783F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rappel_heritage", "rappel_heritage\rappel_heritage.csproj", "{9F3EF617-1DC2-4309-A166-5669A1031CCE}"
@@ -18,21 +14,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rappel_OOP", "rappel_OOP\rappel_OOP.csproj", "{A2568DC0-5BAC-4A77-9B42-86C5367F7040}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rappel_polymorphism", "rappel_polymorphism\rappel_polymorphism.csproj", "{61C6F506-0109-4617-B6D0-99487D8A3EE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-		Description = Source : https://www.youtube.com/playlist?list=PLrW43fNmjaQVYF4zgsD0oL9Iv6u23PI6M
+		Description = 
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B98326D7-5CD5-4325-B12F-221324C07246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B98326D7-5CD5-4325-B12F-221324C07246}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B98326D7-5CD5-4325-B12F-221324C07246}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B98326D7-5CD5-4325-B12F-221324C07246}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27F0AAEC-ED08-4CBC-8510-8367A90CBF1E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5F42540-462C-4625-9E51-758E4A2B783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5F42540-462C-4625-9E51-758E4A2B783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5F42540-462C-4625-9E51-758E4A2B783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +37,14 @@ Global
 		{DDEB0E20-36D9-4AD0-84F9-13D69887337B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDEB0E20-36D9-4AD0-84F9-13D69887337B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDEB0E20-36D9-4AD0-84F9-13D69887337B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2568DC0-5BAC-4A77-9B42-86C5367F7040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2568DC0-5BAC-4A77-9B42-86C5367F7040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2568DC0-5BAC-4A77-9B42-86C5367F7040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2568DC0-5BAC-4A77-9B42-86C5367F7040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C6F506-0109-4617-B6D0-99487D8A3EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C6F506-0109-4617-B6D0-99487D8A3EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C6F506-0109-4617-B6D0-99487D8A3EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C6F506-0109-4617-B6D0-99487D8A3EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
